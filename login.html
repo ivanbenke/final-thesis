@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<div class="modal-header">
+			<center><h3 class="modal-title">Prijava</h3></center>
+		</div>
+		<div class="modal-body">
+			<center><form method="post" ng-submit="login()">
+				<label for="user">Korisnik:</label>
+				<br><input type="text" name="user" ng-model="user"><br><br>
+				<label for="password">Lozinka:</label>
+				<br><input type="password" name="password" ng-model="password"><br><br><br>
+				<input type="submit" value="Prijava"><br><br>
+				{{message}}
+			</form></center>			
+		</div>
+	</body>
+</html>

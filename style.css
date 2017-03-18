@@ -1,0 +1,65 @@
+body {
+	background-color: #5cb85c;
+}
+div {
+	display: block;
+}
+.naslovna {
+	color: white;
+	font-size: 90px;
+}
+.welcome {
+	color: white;
+	font-weight: bold;
+}
+.mentor {
+	color: white;
+}
+.prijava {
+	width: 150px;
+	height: 60px;
+	font-size: 30px;
+	text-align: center;
+}
+.dodaj {
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 30;
+	left: 50;
+}
+.logout {
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 30;
+	right: 50;
+}
+.stud_review {
+	width: 300px;
+	margin-left:30px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.glavni_div {
+	border-bottom: 1px solid black;
+	height: 80px; class
+}
+.dodaj_div {
+	width: 33%;
+	display: inline-block;
+}
+.top_div {
+	width: 34%;
+	display: inline-block;
+}
+.logout_div {
+	width; 33%;
+	display: inline-block;
+}
+.ment_review {
+	margin-left:30px;
+	margin-top:3px;
+	margin-bottom:3px;
+	width: 300px;
+}

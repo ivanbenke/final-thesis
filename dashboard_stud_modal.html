@@ -1,0 +1,22 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<div class="modal-header">
+			<center><h3 class="modal-title">Predaja izvještaja</h3></center>
+		</div>
+		<div class="modal-body">
+			<center><form method="post" id="uploadForm" ng-submit="upload()">
+				<label for="datum">Datum (dd/mm/gggg):</label>
+				<input type="text" name="datum" ng-model="datum"><br><br>
+				<label for="tvrtka">Tvrtka:</label>
+				<input type="text" name="tvrtka" ng-model="tvrtka"><br><br>
+				<label for="zadatak">Zadatak:</label>
+				<textarea name="zadatak" ng-model="zadatak"></textarea><br><br>
+				<label for="rjesenje">Rješenje:</label>
+				<textarea name="rjesenje" ng-model="rjesenje"></textarea><br><br><br>
+				<button>Predaj</button><br><br>
+			</form></center>			
+		</div>
+	</body>
+</html>
